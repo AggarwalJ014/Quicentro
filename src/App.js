@@ -1,10 +1,15 @@
+import { Grid } from '@mui/material'
 import React, { Component } from 'react'
+import Footer from './Dash/Footer'
+import Hheader from './Dash/Nav'
 
-export default class App extends Component {
-  render() {
+export default function App()  {
+  
     return (
-      <div>Hi</div>
+      <Grid>
+        <Hheader/>
+        <Footer/>
+      </Grid>
     )
   }
-}
-``
+
